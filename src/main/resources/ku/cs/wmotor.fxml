@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #333333;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.WMotor">
+   <children>
+      <Hyperlink layoutX="757.0" layoutY="560.0" onAction="#homeHyperlink" text="🏠" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Hyperlink>
+      <ImageView fx:id="image" fitHeight="606.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
